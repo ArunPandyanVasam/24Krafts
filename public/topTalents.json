@@ -10,14 +10,14 @@
         "id": 2,
         "name": "Christopher Nolan",
         "profession": "Director",
-        "image": "/assets/talents/nolan.jpg",
+        "image": "/assets/talents/leonardo.jpg",
         "likes": 150000
     },
     {
         "id": 3,
         "name": "Hans Zimmer",
         "profession": "Music Composer",
-        "image": "/assets/talents/zimmer.jpg",
+        "image": "/assets/talents/leonardo.jpg",
         "likes": 90000
     }
 ]
