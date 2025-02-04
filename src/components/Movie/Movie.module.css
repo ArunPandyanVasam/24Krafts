@@ -1,0 +1,55 @@
+/* Movie.module.css */
+
+.movieRow {
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .movies {
+    display: flex;
+    overflow-x: scroll;
+    gap: 15px;
+    scrollbar-width: none;
+  }
+  
+  .movies::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .movieCard {
+    min-width: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .movieCard:hover {
+    transform: scale(1.1);
+  }
+  
+  .movieImage {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movieTitle {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .movieRow {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 18px;
+    }
+  }
+  

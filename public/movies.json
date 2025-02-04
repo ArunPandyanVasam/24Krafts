@@ -1,0 +1,36 @@
+{
+    "trending": [
+        {
+            "id": 1,
+            "title": "Inception",
+            "image": "/assets/movies/inception.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Interstellar",
+            "image": "/assets/movies/interstellar.jpg"
+        },
+        {
+            "id": 3,
+            "title": "The Dark Knight",
+            "image": "/assets/movies/dark-knight.jpg"
+        }
+    ],
+    "action": [
+        {
+            "id": 4,
+            "title": "Mad Max: Fury Road",
+            "image": "/assets/movies/madmax.jpg"
+        },
+        {
+            "id": 5,
+            "title": "John Wick",
+            "image": "/assets/movies/johnwick.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Gladiator",
+            "image": "/assets/movies/gladiator.jpg"
+        }
+    ]
+}
