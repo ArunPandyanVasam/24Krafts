@@ -4,20 +4,20 @@
         "name": "Leonardo DiCaprio",
         "profession": "Actor",
         "image": "/assets/talents/leonardo.jpg",
-        "likes": 12000
+        "likes": 120000
     },
     {
         "id": 2,
         "name": "Christopher Nolan",
         "profession": "Director",
         "image": "/assets/talents/nolan.jpg",
-        "likes": 15000
+        "likes": 150000
     },
     {
         "id": 3,
         "name": "Hans Zimmer",
         "profession": "Music Composer",
         "image": "/assets/talents/zimmer.jpg",
-        "likes": 9000
+        "likes": 90000
     }
 ]
