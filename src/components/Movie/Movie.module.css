@@ -1,8 +1,8 @@
 /* Movie.module.css */
 
 .movieRow {
-    margin: 20px 0;
-    padding: 20px;
+    margin: 25px 0; 
+    padding: 25px;
   }
   
   .title {
@@ -29,7 +29,7 @@
   }
   
   .movieCard:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
   }
   
   .movieImage {

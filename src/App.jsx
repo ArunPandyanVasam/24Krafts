@@ -9,8 +9,9 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Movie category="trending"/>
-      <Movie category="action"/>
+      <Movie category="Trending"/>
+      <Movie category="Action"/>
+      <Movie category="Top-Rated"/>
     </div>
   )
 }
