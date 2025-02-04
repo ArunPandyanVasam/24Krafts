@@ -1,0 +1,62 @@
+.jobListingsSection {
+    padding: 40px 5%;
+    color: white;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .jobList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .jobCard {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .jobCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .jobTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .jobDescription {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .jobLocation,
+  .jobSalary {
+    font-size: 1rem;
+    color: #aaa;
+  }
+  
+  .ctaButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #f54242;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  .ctaButton:hover {
+    background-color: #e03535;
+  }
+  
