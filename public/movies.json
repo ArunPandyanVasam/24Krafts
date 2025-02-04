@@ -1,5 +1,5 @@
 {
-    "trending": [
+    "action": [
         {
             "id": 1,
             "title": "Inception",
@@ -16,7 +16,7 @@
             "image": "/assets/movies/dark-knight.jpg"
         }
     ],
-    "action": [
+    "trending": [
         {
             "id": 4,
             "title": "Mad Max: Fury Road",
