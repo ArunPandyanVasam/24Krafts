@@ -3,6 +3,7 @@ import './index.css'; // Global CSS
 import { Hero } from './components/Hero/Hero'
 import { Movie } from './components/Movie/Movie'
 import { Navbar } from './components/Navbar/Navbar'
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Movie category="Trending"/>
       <Movie category="Action"/>
       <Movie category="Top-Rated"/>
+      <Footer />
     </div>
   )
 }
