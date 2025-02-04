@@ -1,0 +1,87 @@
+.crowdfundingSpotlightSection {
+    padding: 40px 5%;
+    color: white;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .movieList {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    scrollbar-width: none;
+  }
+  
+  .movieList::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .movieCard {
+    min-width: 250px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .movieCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .moviePoster {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movieTitle {
+    font-size: 1.4rem;
+    margin: 15px 0 10px;
+  }
+  
+  .movieDescription {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  .progressBar {
+    width: 100%;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #f54242;
+    border-radius: 5px;
+  }
+  
+  .fundedAmount {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .ctaButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #f54242;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .ctaButton:hover {
+    background-color: #e03535;
+  }
+  
