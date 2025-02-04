@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Film Director",
+        "description": "Seeking an experienced film director to lead a feature film project. Must have a proven track record in the industry.",
+        "location": "Los Angeles, CA",
+        "salary": "$150,000/year"
+    },
+    {
+        "id": 2,
+        "title": "Cinematographer",
+        "description": "Looking for a skilled cinematographer to join a major production. Must have expertise with film cameras and lighting setups.",
+        "location": "New York, NY",
+        "salary": "$120,000/year"
+    },
+    {
+        "id": 3,
+        "title": "Sound Designer",
+        "description": "Seeking a talented sound designer to create immersive audio experiences for films. Must be proficient in Pro Tools and other sound editing software.",
+        "location": "Chicago, IL",
+        "salary": "$100,000/year"
+    },
+    {
+        "id": 4,
+        "title": "Film Editor",
+        "description": "Looking for an experienced film editor with expertise in post-production processes. Must be familiar with Adobe Premiere Pro and Final Cut Pro.",
+        "location": "Remote",
+        "salary": "$90,000/year"
+    },
+    {
+        "id": 5,
+        "title": "Production Assistant",
+        "description": "Entry-level position for a production assistant. Responsibilities include assisting with day-to-day operations and production tasks.",
+        "location": "Atlanta, GA",
+        "salary": "$45,000/year"
+    }
+]
