@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Blockbuster Premiere Night",
+      "poster": "/assets/events/event1.jpg",
+      "releaseDate": "March 10, 2025",
+      "showtimes": ["4:00 PM", "7:30 PM", "10:00 PM"]
+    },
+    {
+      "id": 2,
+      "title": "Indie Film Festival",
+      "poster": "/assets/events/event2.jpg",
+      "releaseDate": "March 15, 2025",
+      "showtimes": ["2:00 PM", "6:00 PM"]
+    }
+  ]
+  
