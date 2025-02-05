@@ -5,7 +5,7 @@ export const CrowdfundingSpotlight = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    fetch('/crowdFundingMovies.json') // Fetching data from public folder
+    fetch('/CrowdfundingSpotlight.json') // Fetching data from public folder
       .then((response) => response.json())
       .then((data) => setMovies(data))
       .catch((error) => console.error('Error fetching crowdfunding movies:', error));
