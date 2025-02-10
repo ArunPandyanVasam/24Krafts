@@ -9,17 +9,19 @@ import { CrowdfundingSpotlight } from './components/CrowdfundingSpotlight/Crowdf
 import { UpcomingEvents } from './components/UpcomingEvents/UpcomingEvents';
 import { JobListings } from './components/JobListings/JobListings';
 import { CrowdFundingMovies } from './components/CrowdFundingMovies/CrowdFundingMovies';
+import { EventTicketing } from './components/EventTicketing/EventTicketing';
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <TopTalents />
-      <CrowdfundingSpotlight />
-      <UpcomingEvents />
+      {/* <TopTalents /> */}
       <CrowdFundingMovies />
+      {/* <CrowdfundingSpotlight /> */}
+      <UpcomingEvents />
       <JobListings />
+      <EventTicketing />
       <Movie category="Trending"/>
       <Footer />
     </div>

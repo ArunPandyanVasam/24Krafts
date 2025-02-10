@@ -1,59 +1,38 @@
-.eventTicketingSection {
+.ticketingSection {
     padding: 40px 5%;
     color: white;
-  }
-  
-  /* Hero Section */
-  .heroSection {
-    background-color: #222;
-    padding: 60px 5%;
     text-align: center;
-    border-radius: 10px;
   }
   
-  .heroTitle {
-    font-size: 2.5rem;
+  .title {
+    font-size: 2rem;
     margin-bottom: 20px;
-  }
-  
-  .heroDescription {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-  }
-  
-  .heroCtaButton {
-    padding: 15px 30px;
-    background-color: #f54242;
-    color: white;
-    border: none;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .heroCtaButton:hover {
-    background-color: #e03535;
-  }
-  
-  /* Upcoming Events */
-  .upcomingEvents {
-    margin-top: 60px;
   }
   
   .eventList {
     display: flex;
-    gap: 20px;
     overflow-x: auto;
+    gap: 20px;
     scrollbar-width: none;
+    justify-content: center;
+  }
+  
+  .eventList::-webkit-scrollbar {
+    display: none;
   }
   
   .eventCard {
-    min-width: 250px;
-    background-color: #333;
+    min-width: 200px;
+    background-color: #222;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
     cursor: pointer;
+  }
+  
+  .eventCard:hover {
+    transform: scale(1.05);
   }
   
   .eventPoster {
@@ -62,8 +41,8 @@
   }
   
   .eventTitle {
-    font-size: 1.4rem;
-    margin: 15px 0 10px;
+    font-size: 1.2rem;
+    margin: 10px 0;
   }
   
   .eventDate {
@@ -71,46 +50,69 @@
     color: #ccc;
   }
   
-  .ticketButton {
-    padding: 12px;
-    background-color: #f54242;
-    color: white;
-    border: none;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
+  .showtimeSelection {
+    margin-top: 20px;
+  }
+  
+  .showtimeButtons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
     margin-top: 10px;
   }
   
-  /* Ticketing System */
-  .ticketingSystem {
-    margin-top: 60px;
-    padding: 20px;
-    background-color: #444;
-    border-radius: 10px;
-  }
-  
-  .showtimes, .seatSelection, .paymentSection {
-    margin-bottom: 20px;
-  }
-  
-  .showtimeButton, .seatButton {
-    padding: 10px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .showtimeButton.selected, .seatButton.selected {
-    background-color: #f54242;
+  .showtimeButton {
+    padding: 10px 15px;
+    background: #222;
     color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background 0.3s;
   }
   
-  .paymentButton {
-    width: 100%;
-    padding: 12px;
-    background-color: #f54242;
+  .showtimeButton:hover {
+    background: #444;
+  }
+  
+  .activeShowtime {
+    background: red;
+    border-color: red;
+  }
+  
+  .seatSelection {
+    margin-top: 20px;
+  }
+  
+  .seatsGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .seatButton {
+    width: 40px;
+    height: 40px;
+    background: #222;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .seatButton:hover {
+    background: #444;
+  }
+  
+  .selectedSeat {
+    background: red;
+    border-color: red;
+  }
+  
+  .proceedButton {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: red;
     color: white;
     border: none;
     font-size: 1rem;
@@ -118,19 +120,7 @@
     border-radius: 5px;
   }
   
-  /* Promotions */
-  .promotions {
-    margin-top: 60px;
-    background-color: #555;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
-  @media (max-width: 768px) {
-    .eventList {
-      flex-direction: column;
-      align-items: center;
-    }
+  .proceedButton:hover {
+    background-color: darkred;
   }
   

@@ -14,9 +14,9 @@ export const Navbar = () => {
       
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.active : ''}`}>
         <li>Home</li>
-        <li>Movies</li>
-        <li>TV Shows</li>
-        <li>New & Popular</li>
+        <li>Crowdfunding</li>
+        <li>Events</li>
+        <li>Jobs</li>
       </ul>
       
       <button className={styles.signIn}>Sign In</button>
