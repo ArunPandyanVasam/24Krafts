@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,10 +14,9 @@ export const Navbar = () => {
       <img className={styles.logo} src="/assets/nav/logo.png" alt="Logo" />
       
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.active : ''}`}>
-        <li>Home</li>
-        {/* <li>Crowdfunding</li> */}
-        <li>Events</li>
-        <li>Jobs</li>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/events">Events</Link></li>
+      <li><Link to="/jobs">Jobs</Link></li>
       </ul>
       
       <button className={styles.signIn}>Sign In</button>
