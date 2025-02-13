@@ -9,7 +9,7 @@
     {
       "id": 2,
       "title": "Indie Film Festival",
-      "poster": "/assets/events/event2.jpg",
+      "poster": "/assets/events/event1.jpg",
       "releaseDate": "March 15, 2025",
       "showtimes": ["2:00 PM", "6:00 PM"]
     }
