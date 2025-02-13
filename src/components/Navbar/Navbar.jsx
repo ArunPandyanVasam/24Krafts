@@ -14,7 +14,7 @@ export const Navbar = () => {
       
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.active : ''}`}>
         <li>Home</li>
-        <li>Crowdfunding</li>
+        {/* <li>Crowdfunding</li> */}
         <li>Events</li>
         <li>Jobs</li>
       </ul>
