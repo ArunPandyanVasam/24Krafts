@@ -10,18 +10,6 @@ import Jobs from "./pages/Jobs/Jobs";
 function App() {
   return (
     <div>
-      
-      {/* <Navbar />
-      <Hero /> */}
-      {/* <TopTalents /> */}
-      {/* <CrowdFundingMovies /> */}
-      {/* <CrowdfundingSpotlight /> */}
-      {/* <UpcomingEvents />
-      <JobListings />
-      <EventTicketing />
-      <Movie category="Trending"/>
-      <Footer /> */}
-
       <Router>
         <Navbar />
         <Routes>
