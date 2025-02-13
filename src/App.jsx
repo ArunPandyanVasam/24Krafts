@@ -10,6 +10,7 @@ import Jobs from "./pages/Jobs/Jobs";
 function App() {
   return (
     <div>
+      
       {/* <Navbar />
       <Hero /> */}
       {/* <TopTalents /> */}
