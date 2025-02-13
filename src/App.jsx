@@ -1,31 +1,32 @@
-import './App.css'
-import './index.css'; // Global CSS
-import { Hero } from './components/Hero/Hero'
-import { Movie } from './components/Movie/Movie'
-import { Navbar } from './components/Navbar/Navbar'
-import { Footer } from './components/Footer/Footer';
-import { TopTalents } from './components/TopTalents/TopTalents';
-import { CrowdfundingSpotlight } from './components/CrowdfundingSpotlight/CrowdfundingSpotlight';
-import { UpcomingEvents } from './components/UpcomingEvents/UpcomingEvents';
-import { JobListings } from './components/JobListings/JobListings';
-import { CrowdFundingMovies } from './components/CrowdFundingMovies/CrowdFundingMovies';
-import { EventTicketing } from './components/EventTicketing/EventTicketing';
+import "./App.css";
+import { Navbar } from "./components/Navbar/Navbar";
+import "./index.css"; // Global CSS
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      {/* <Navbar />
+      <Hero /> */}
       {/* <TopTalents /> */}
-      <CrowdFundingMovies />
+      {/* <CrowdFundingMovies /> */}
       {/* <CrowdfundingSpotlight /> */}
-      <UpcomingEvents />
+      {/* <UpcomingEvents />
       <JobListings />
       <EventTicketing />
       <Movie category="Trending"/>
-      <Footer />
+      <Footer /> */}
+
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
